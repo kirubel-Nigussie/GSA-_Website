@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
+</head>
+<body>   
+    <nav>
+        <label class="logo"><a href="#"> <img src="logo +img/bg remove/newre-removebg-preview.png" alt="" width="80" height="50"> </a></label>
+        <img class="menu" src="imghome/menu-bar-1.png" alt="" width="80" height="50" onclick="togglemenu()">
+        <ul id="menuList">
+            
+            <li><a  href="Home.html">HOME</a></li>
+            <li><a href="#">PRODUCT</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="Tshirt.html">T-shirt</a></li>
+                        <li><a href="Hoodie.html">Hoodie + Sweatshirt</a></li>
+                        <li><a href="short.htm">SHorts + SweatPants</a></li>
+                        <li class="accesories"><a href="#">Accessories</a><i class="fa fa-angle-right">
+                        </i>
+                            <div class="sub-menu2">
+                                <ul>
+                                    <li><a href="accessories.html#bags">Bages</a></li>
+                                    <li><a href="accessories.html#Hats">Hats</a></li>
+                                    <li><a href="accessories.html#sunglasses">Sunglasses</a></li>
+                                    <li><a href="accessories.html#mugs">Mug</a></li>
+                                    <li><a href="accessories.html#stickers">Stickers</a></li>
+                                </ul>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="Hoodie.html">SALE</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+       
+            <li class="search-icon">
+                <input type="search" placeholder="search">
+              <label class="iconn">
+                <span class="fas fa-search"></span>
+            </label>
+            </li>
+            <li><a class="active" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+        </ul>
+    </nav>
+
+    <section class="cart_container">
+        <h1>Shopping Cart</h1>
+        <div class="cart">
+            <div class="prod_cart">
+                <div class="pro_ca">
+                    <img src="imghome/tshirt.jpg" alt="">
+                    <div class="product_info">
+                        <h3 class="prod_name"> New t-shirt</h3>
+                        <h4 class="prod_price">Price: 500 birr</h2>
+                        <p class="prod_quantity"> Quantity: <input type="number" value="1" name="">
+                            <p class="prod_remove">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <span class="remove">Remove</span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="prod_cart">
+                <div class="pro_ca">
+                    <img src="imghome/sweatshirt.jpg" alt="">
+                    <div class="product_info">
+                        <h3 class="prod_name"> New Sweatshirt</h3>
+                        <h4 class="prod_price">Price: 600 birr</h2>
+                        <p class="prod_quantity"> Quantity: <input type="number" value="1" name="">
+                            <p class="prod_remove">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <span class="remove">Remove</span>
+                            </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="cart-total">
+                <p>
+                    <span>Total Price</span>
+                    <span> 1100 birr</span>
+                </p>
+                <p>
+                    <span>Number of Item</span>
+                    <span> 2 </span>
+                </p>
+                <p>
+                    <span>Delivery fee</span>
+                    <span> 100 birr</span>
+                </p>
+                <a href="#">Proceed to Chackout</a>
+            </div>
+      <!--   <DIV>
+            <form>
+                <h3 class="h3">Clinet Information</h3>
+                <div class="form-wrapper">
+                    <label for="">Delivery Town:</label>
+                    <select name="" id="" class="form-control">
+                       
+                        <option value=""disabled selected>Dlivery Town</option>
+                        <option value="addis" selected>ADDIS ABEBA</option>
+                        <option value="femal">ADAMA</option>
+                        <option value="addis">ARBAMINCH</option>
+                        <option value="femal">ASOSA</option>
+                        <option value="addis">BAHIR DAR</option>
+                        <option value="femal">DESSIE</option>
+                        <option value="addis">DIRE DAWA</option>
+                        <option value="femal">GONDER</option>
+                        <option value="addis">HAWASSA</option>
+                        <option value="femal">JIJIGA</option>
+                        <option value="addis">KOMBOLCHA</option>
+                        <option value="femal">GAMBELA</option>
+                    </select>
+                </div>
+                <p class="p">
+                    <label for="firstName">First Names: &nbsp; &nbsp;</label>
+                    <input type="text" name="firstName" id="firstName" autocomplete="on" required >
+                </p>
+                <p class="p">
+                    <label for="lastName">Last Names: &nbsp; &nbsp;</label>
+                    <input type="text" name="lastName" id="firstName" autocomplete="on" required >
+                </p>
+                <p class="p">
+                    <label for="message">More Address / Location details</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="3" placeholder="Address details" ></textarea>
+                </p>
+                
+                <p class="p">
+                    <label for="phone">Mobile Number: &nbsp; &nbsp; &nbsp;</label>
+                    <input type="tel" name="phone" id="phone" placeholder=""  required >
+                </p>
+                <p class="p">
+                    <p class="p2">pay in one of the following Banks and send us a picture of the <strong>receipt</strong></p>
+                    <label for="receipt" >Upload your receipt: &nbsp; &nbsp;</label>
+                    <input type="file" id="receipt" name="receipt">
+                </p>
+    
+            </form>
+            
+            
+            <button>Submit</button>
+
+        </DIV> -->
+    
+        <div class="container12">
+            <form id="form" action="/">
+                <h1>clinet Information</h1>
+                <div class="input-control">
+                <label for="">Delivery Town:</label>
+                <select name="" id="" class="form-control">
+                   
+                    <option value=""disabled selected>Dlivery Town</option>
+                    <option value="addis" selected>ADDIS ABEBA</option>
+                    <option value="femal">ADAMA</option>
+                    <option value="addis">ARBAMINCH</option>
+                    <option value="femal">ASOSA</option>
+                    <option value="addis">BAHIR DAR</option>
+                    <option value="femal">DESSIE</option>
+                    <option value="addis">DIRE DAWA</option>
+                    <option value="femal">GONDER</option>
+                    <option value="addis">HAWASSA</option>
+                    <option value="femal">JIJIGA</option>
+                    <option value="addis">KOMBOLCHA</option>
+                    <option value="femal">GAMBELA</option>
+                </select>
+            </div>
+                <div class="input-control">
+                    <label for="username">first name</label>
+                    <input id="username" name="username" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="lastName">Last name</label>
+                    <input id="lastName" name="lastName" type="text">
+                    <div class="error"></div>
+                </div>
+               
+                <div class="input-control">
+                    <label for="Address">More Address/Location details</label>
+                    <input id="Address" name="Address" type="text">
+                    <div class="error"></div>
+                </div>
+               
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password">secret word confirmion used on delivery</label>
+                    <input id="password"name="password" type="password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password2">rewrite secret word confirmion used on delivery</label>
+                    <input id="password2"name="password2" type="password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="phonNumber">Mobile Number</label>
+                    <input id="phonNumber" name="phonNumber" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                <p class="p3">pay in one of the following Banks and send us a picture of the <strong>receipt</strong></p>
+                <label for="receipt" >Upload your receipt: &nbsp;</label>
+    
+                    <input  type="file" id="receipt" name="receipt" >
+                </div>
+                
+                <button type="submit">submit</button>
+            </form>
+        </div>
+
+
+
+        
+    </section>
+
+    
+        
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="About.html#questions">Frequently adsked questions</a></li>
+                        <li><a href="About.html#Delivery">Delivery information</a></li>
+                        <li><a href="About.html#Orders">Order + Payments</a></li>
+                        <li><a href="About.html#CUSTOMER">Customer Services-0963403213</a></li>
+                        <li><a href="About.html#Contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <li></li>
+                </div>
+                <div class="footer-col">
+                    <li></li>
+                </div>
+                <div class="footer-col">
+                    <h4>Social site</h4>
+                    <div class="socal-link">
+                        <a href="https://instagram.com/grand_side_addis?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    
+</body>
+</html>

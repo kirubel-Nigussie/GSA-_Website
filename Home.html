@@ -1,396 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="icon" href="imghome/gsalogo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <script defer src="main.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <label class="logo"><a href="#"> <img src="logo +img/bg remove/newre-removebg-preview.png" alt="" width="80" height="50"> </a></label>
-        <img class="menu" src="imghome/menu-bar-1.png" alt="" width="80" height="50" onclick="togglemenu()">
-        
-        
-        <label class="iconn2"><span class="fas fa-search2"></span></label>
-        <input class="newsearch2" type="search" placeholder="search">
-        
+      <label class="logo"
+        ><a href="#">
+          <img
+            src="logo +img/bg remove/newre-removebg-preview.png"
+            alt=""
+            width="80"
+            height="50"
+          /> </a
+      ></label>
+      <img
+        class="menu"
+        src="imghome/menu-bar-1.png"
+        alt=""
+        width="80"
+        height="50"
+        onclick="togglemenu()"
+      />
 
+      <label class="iconn2"><span class="fas fa-search2"></span></label>
+      <input class="newsearch2" type="search" placeholder="search" />
 
-        <ul id="menuList">
-            
-            <li><a class="active" href="#">HOME</a></li>
-            <li><a href="#">PRODUCT</a>
-                <div class="sub-menu">
-                    <ul>
-                        <li><a href="Tshirt.html">T-shirt</a></li>
-                        <li><a href="Hoodie.html">Hoodie + Sweatshirt</a></li>
-                        <li><a href="short.htm">SHorts + SweatPants</a></li>
-                        <li class="accesories"><a href="#">Accessories</a><i class="fa fa-angle-right">
-                        </i>
-                            <div class="sub-menu2">
-                                <ul>
-                                    <li><a href="accessories.html#bags">Bages</a></li>
-                                    <li><a href="accessories.html#Hats">Hats</a></li>
-                                    <li><a href="accessories.html#sunglasses">Sunglasses</a></li>
-                                    <li><a href="accessories.html#mugs">Mugs</a></li>
-                                    <li><a href="accessories.html#stickers">Stickers</a></li>
-                                </ul>
-
-                            </div>
-                        </li>
-                    </ul>
+      <ul id="menuList">
+        <li><a class="active" href="#">HOME</a></li>
+        <li>
+          <a href="#">PRODUCT</a>
+          <div class="sub-menu">
+            <ul>
+              <li><a href="Tshirt.html">T-shirt</a></li>
+              <li><a href="Hoodie.html">Hoodie + Sweatshirt</a></li>
+              <li><a href="short.htm">SHorts + SweatPants</a></li>
+              <li class="accesories">
+                <a href="#">Accessories</a><i class="fa fa-angle-right"> </i>
+                <div class="sub-menu2">
+                  <ul>
+                    <li><a href="accessories.html#bags">Bags</a></li>
+                    <li><a href="accessories.html#Hats">Hats</a></li>
+                    <li>
+                      <a href="accessories.html#sunglasses">Sunglasses</a>
+                    </li>
+                    <li><a href="accessories.html#mugs">Mugs</a></li>
+                    <li><a href="accessories.html#stickers">Stickers</a></li>
+                  </ul>
                 </div>
-            </li>
-            <li><a href="Tshirt.html">SALE</a></li>
-            <li><a href="About.html">ABOUT</a></li>
-       
-            <li class="search-icon">
-              <input type="search" placeholder="search">
-              <label class="iconn">
-                <span class="fas fa-search"></span>
-              </label>
-            </li>
-            <li><a href="Cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-        </ul>
-        
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="Tshirt.html">SALE</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+
+        <li class="search-icon">
+          <input type="search" placeholder="search" />
+          <label class="iconn">
+            <span class="fas fa-search"></span>
+          </label>
+        </li>
+        <li>
+          <a href="Cart.html"
+            ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
     </nav>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <main>
-        <section id="hero">
-            <div class="slides slowFade">
-                <div class="slide">
-                    <img src="imghome/6.jpg" alt="img"/>
-                </div>
-               
-                <div class="slide">
-                    <img src="imghome/2.jpg" alt="img"/>
-                </div>
-                <div class="slide">
-                    <img src="imghome/6.jpg" alt="img"/>
-                </div>
-                <div class="slide">
-                    <img src="imghome/3.jpg" alt="hero img">
-                </div>
-            </div>  
+      <section id="hero">
+        <div class="slides slowFade">
+          <div class="slide">
+            <img src="imghome/6.jpg" alt="img" />
+          </div>
 
+          <div class="slide">
+            <img src="imghome/2.jpg" alt="img" />
+          </div>
+          <div class="slide">
+            <img src="imghome/6.jpg" alt="img" />
+          </div>
+          <div class="slide">
+            <img src="imghome/3.jpg" alt="hero img" />
+          </div>
+        </div>
 
+        <!--  kidi home code -->
 
-
-
-
-
-           <!--  kidi home code -->
-
-
-
-
-           <section class="sh_products">
-            <a href="Tshirt.html">
-                <div class="tshirt" >
-                    <img src="imghome/tshirt-removebg-preview.png" alt=""  >
-                    <h2>T-shirts</h2>
-                    <p>our T-shirts are all about<br> confort, quality and style.<br> We offer a variety of sizes znd colors</p>
-                </div>
-            </a>
-            <a href="Hoodie.html">
-                <div class="hoodies" >
-                    <img src="imghome/sweatshirt-removebg-preview.png" alt="" >
-                    <h3>Hoodies + sweatshirts</h3>
-                    <p class="p1">our Hoodies & sweatshirts are all <br> about confort, quality and style. We <br> offer a variety of sizes znd colors</p>
-                </div>
-            </a>
-            <a href="short.htm">
-                <div class="sweatpants" >
-                    <img src="imghome/shortremovebg-preview.png" alt="">
-                    <h4>Sweatpants + shorts</h4>
-                    <p class="p1">our Sweatpants & shorts are<br> all about confort, quality <br>and style. We offer a <br>variety of sizes and colors</p>
-                </div>
-            </a>
-            <a href="accessories.html">
-                <div class="accessories" >
-                    <img src="imghome/hat-removebg-preview.png" alt="" >
-                    <h5>Accessories</h5>
-                    <p class="p1">our Accessories are all about<br> confort, quality and style.<br> We offer a variety of sizes znd colors</p>
-                </div>
-            </a>
+        <section class="sh_products">
+          <a href="Tshirt.html">
+            <div class="tshirt">
+              <img src="imghome/tshirt-removebg-preview.png" alt="" />
+              <h2>T-shirts</h2>
+              <p>
+                our T-shirts are all about<br />
+                confort, quality and style.<br />
+                We offer a variety of sizes znd colors
+              </p>
+            </div>
+          </a>
+          <a href="Hoodie.html">
+            <div class="hoodies">
+              <img src="imghome/sweatshirt-removebg-preview.png" alt="" />
+              <h3>Hoodies + sweatshirts</h3>
+              <p class="p1">
+                our Hoodies & sweatshirts are all <br />
+                about confort, quality and style. We <br />
+                offer a variety of sizes znd colors
+              </p>
+            </div>
+          </a>
+          <a href="short.htm">
+            <div class="sweatpants">
+              <img src="imghome/shortremovebg-preview.png" alt="" />
+              <h4>Sweatpants + shorts</h4>
+              <p class="p1">
+                our Sweatpants & shorts are<br />
+                all about confort, quality <br />and style. We offer a
+                <br />variety of sizes and colors
+              </p>
+            </div>
+          </a>
+          <a href="accessories.html">
+            <div class="accessories">
+              <img src="imghome/hat-removebg-preview.png" alt="" />
+              <h5>Accessories</h5>
+              <p class="p1">
+                our Accessories are all about<br />
+                confort, quality and style.<br />
+                We offer a variety of sizes znd colors
+              </p>
+            </div>
+          </a>
         </section>
 
+        <!--  kidi home code out-->
+      </section>
+      <section id="product1" class="section-padding">
+        <h3>New Arrivals</h3>
+        <hr />
+        <div class="pro-container">
+          <div class="pro">
+            <img src="imghome/acsun.jpg" alt="product img" />
 
-
-
-
-
-
-
-
-
-
-
-                <!--  kidi home code out-->
-
-
-
-
-
-
-            
-
-
-
-
-
-            
-            
-            
-        </section>
-        <section id="product1" class="section-padding">
-            <h3>New Arrivals</h3>
-            <hr>
-            <div class="pro-container">
-                <div class="pro">
-                    <img src="imghome/acsun.jpg" alt="product img"
-                    >
-                
-                <div class="def">
-                    <span>Tshirt</span>
-                    <h5>Tribal T-shirts</h5>
-                    <h4>800ETB</h4>
-
-                </div>
-                <a href="Cart.html"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
-                
-                
-                
-            
-            
-                
+            <div class="def">
+              <span>Tshirt</span>
+              <h5>Tribal T-shirts</h5>
+              <h4>800ETB</h4>
             </div>
-                <div class="pro">
-                    <img src="imghome/shorts.jpg" alt="product img"
-                    >
-                
-                <div class="def">
-                    <span>Tshirt</span>
-                    <h5>Tribal T-shirts</h5>
-                    <h4>800ETB</h4>
+            <a href="Cart.html"
+              ><i class="fa fa-shopping-cart cart" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="pro">
+            <img src="imghome/shorts.jpg" alt="product img" />
 
-                </div>
-                <a href="Cart.html"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
-                
-                
-                
-            
-            
-                
+            <div class="def">
+              <span>Tshirt</span>
+              <h5>Tribal T-shirts</h5>
+              <h4>800ETB</h4>
             </div>
-                <div class="pro">
-                    <img src="imghome/acbag.jpg" alt="product img"
-                    >
-                
-                <div class="def">
-                    <span>Tshirt</span>
-                    <h5>Tribal T-shirts</h5>
-                    <h4>800ETB</h4>
+            <a href="Cart.html"
+              ><i class="fa fa-shopping-cart cart" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="pro">
+            <img src="imghome/acbag.jpg" alt="product img" />
 
-                </div>
-                <a href="Cart.html"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
-                
-                
-                
-            
-            
-                
+            <div class="def">
+              <span>Tshirt</span>
+              <h5>Tribal T-shirts</h5>
+              <h4>800ETB</h4>
             </div>
-                <div class="pro">
-                    <img src="imghome/acmug.png" alt="product img"
-                    >
-                
-                <div class="def">
-                    <span>Tshirt</span>
-                    <h5>Tribal T-shirts</h5>
-                    <h4>800ETB</h4>
+            <a href="Cart.html"
+              ><i class="fa fa-shopping-cart cart" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="pro">
+            <img src="imghome/acmug.png" alt="product img" />
 
-                </div>
-                <a href="Cart.html"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
-                
-                
-                
-            
-            
-                
+            <div class="def">
+              <span>Tshirt</span>
+              <h5>Tribal T-shirts</h5>
+              <h4>800ETB</h4>
             </div>
-           
+            <a href="Cart.html"
+              ><i class="fa fa-shopping-cart cart" aria-hidden="true"></i
+            ></a>
+          </div>
         </div>
         <h3>Most Popular</h3>
-            <hr>
-            <div class="pro-container">
-                <div class="pro">
-                    <img src="imghome/sweatshirt.jpg" alt="product img"
-                    >
-                
-                <div class="def">
-                    <span>Tshirt</span>
-                    <h5>Tribal T-shirts</h5>
-                    <h4>800ETB</h4>
+        <hr />
+        <div class="pro-container">
+          <div class="pro">
+            <img src="imghome/sweatshirt.jpg" alt="product img" />
 
-                </div>
-                <a href="Cart.html"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
-                
-                
-                
-            
-            
-                
+            <div class="def">
+              <span>Tshirt</span>
+              <h5>Tribal T-shirts</h5>
+              <h4>800ETB</h4>
             </div>
-                <div class="pro">
-                    <img src="imghome/hoodie.jpg" alt="product img"
-                    >
-                
-                <div class="def">
-                    <span>Tshirt</span>
-                    <h5>Tribal T-shirts</h5>
-                    <h4>800ETB</h4>
+            <a href="Cart.html"
+              ><i class="fa fa-shopping-cart cart" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="pro">
+            <img src="imghome/hoodie.jpg" alt="product img" />
 
-                </div>
-                <a href="Cart.html"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
-                
-                
-                
-            
-            
-                
+            <div class="def">
+              <span>Tshirt</span>
+              <h5>Tribal T-shirts</h5>
+              <h4>800ETB</h4>
             </div>
-                <div class="pro">
-                    <img src="imghome/sweatshirt.jpg" alt="product img"
-                    >
-                
-                <div class="def">
-                    <span>Tshirt</span>
-                    <h5>Tribal T-shirts</h5>
-                    <h4>800ETB</h4>
+            <a href="Cart.html"
+              ><i class="fa fa-shopping-cart cart" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="pro">
+            <img src="imghome/sweatshirt.jpg" alt="product img" />
 
-                </div>
-                <a href="Cart.html"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
-                
-                
-                
-            
-            
-                
+            <div class="def">
+              <span>Tshirt</span>
+              <h5>Tribal T-shirts</h5>
+              <h4>800ETB</h4>
             </div>
-                <div class="pro">
-                    <img src="imghome/hoodie.jpg" alt="product img"
-                    >
-                
-                <div class="def">
-                    <span>Tshirt</span>
-                    <h5>Tribal T-shirts</h5>
-                    <h4>800ETB</h4>
+            <a href="Cart.html"
+              ><i class="fa fa-shopping-cart cart" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="pro">
+            <img src="imghome/hoodie.jpg" alt="product img" />
 
-                </div>
-                <a href="Cart.html"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
-                
-                
-                
-            
-            
-                
+            <div class="def">
+              <span>Tshirt</span>
+              <h5>Tribal T-shirts</h5>
+              <h4>800ETB</h4>
             </div>
+            <a href="Cart.html"
+              ><i class="fa fa-shopping-cart cart" aria-hidden="true"></i
+            ></a>
+          </div>
         </div>
-
-
-        </section>
-       
-      
+      </section>
     </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>Help</h4>
-                    <ul>
-                        <li><a href="About.html#questions">Frequently adsked questions</a></li>
-                        <li><a href="About.html#Delivery">Delivery information</a></li>
-                        <li><a href="About.html#Orders">Order + Payments</a></li>
-                        <li><a href="About.html#CUSTOMER">Customer Services-0963403213</a></li>
-                        <li><a href="About.html#Contact">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <li></li>
-                </div>
-                <div class="footer-col">
-                    <li></li>
-                </div>
-                <div class="footer-col">
-                    <h4>Social site</h4>
-                    <div class="socal-link">
-                        <a href="https://instagram.com/grand_side_addis?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
-                        <a href="https://instagram.com/grand_side_addis?igshid=MzRlODBiNWFlZA=="><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://instagram.com/grand_side_addis?igshid=MzRlODBiNWFlZA=="><i class="fab fa-twitter"></i></a>
-                        <a href="https://instagram.com/grand_side_addis?igshid=MzRlODBiNWFlZA=="><i class="fab fa-linkedin-in"></i></a>
-                       
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Help</h4>
+            <ul>
+              <li>
+                <a href="About.html#questions">Frequently adsked questions</a>
+              </li>
+              <li><a href="About.html#Delivery">Delivery information</a></li>
+              <li><a href="About.html#Orders">Order + Payments</a></li>
+              <li>
+                <a href="About.html#CUSTOMER">Customer Services-0963403213</a>
+              </li>
+              <li><a href="About.html#Contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <li></li>
+          </div>
+          <div class="footer-col">
+            <li></li>
+          </div>
+          <div class="footer-col">
+            <h4>Social site</h4>
+            <div class="socal-link">
+              <a
+                href="https://instagram.com/grand_side_addis?igshid=MzRlODBiNWFlZA=="
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://instagram.com/grand_side_addis?igshid=MzRlODBiNWFlZA=="
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://instagram.com/grand_side_addis?igshid=MzRlODBiNWFlZA=="
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://instagram.com/grand_side_addis?igshid=MzRlODBiNWFlZA=="
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
             </div>
+          </div>
         </div>
-
-
+      </div>
     </footer>
-    
-    
-</body>
+  </body>
 </html>

@@ -13,6 +13,7 @@ html{
 body{
     font-family:'Times New Roman', Times, serif;
     background-color: #cfa286;
+   
 }
 
 
@@ -386,8 +387,10 @@ nav ul li:hover .sub-menu ul li{
     border:rgba(0, 0, 0, 0.5);
     border-radius: 4px;
     margin-left: 200px;
+    
     margin-top: 80px;
     transition: 1s;
+    
     
     
 }
@@ -448,8 +451,9 @@ nav ul li:hover .sub-menu ul li{
     text-align:center;
     border:rgba(0, 0, 0, 0.5);
     border-radius: 4px;
-    margin-left: 900px;
-    margin-top: -450px;
+    margin-right: 600px;
+    margin-top: 50px;
+     /* margin-top: -450px; */
     transition: 1s;
  
 }
@@ -481,6 +485,7 @@ nav ul li:hover .sub-menu ul li{
     height: 150px;
     margin-top: 20px;
     margin-left: -160px;
+   
 }
 .sweatpants h4{
 
@@ -499,6 +504,7 @@ nav ul li:hover .sub-menu ul li{
     font-size: 14px;
     margin-top: 7px;
     margin-right: -160px;
+   
 }
 .sweatpants { 
     width: 200px;
@@ -509,6 +515,7 @@ nav ul li:hover .sub-menu ul li{
     margin-left: 900px;
     margin-top: -210px;
     transition: 1s;
+    margin-right: 100px;
     
    
 }
@@ -844,6 +851,7 @@ nav ul li:hover .sub-menu ul li{
 /* this is the accessories part css */
 
 
+
 .section-padding-accessories{
     padding: 40px 40px;
 
@@ -912,6 +920,30 @@ nav ul li:hover .sub-menu ul li{
     color:black;
     font-size: 20px;
     
+}
+
+.pro-container-accessories{
+    display: flex;
+}
+.bags_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.hats_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.sunglasses_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.mugs_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.stickers_cont{
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -1170,6 +1202,7 @@ box-sizing: border-box;
     width: 350px;
     border: 1px solid silver;
     border-radius: 5px;
+    padding: 20px;
 
 }
 .cart-total:hover{
@@ -1192,11 +1225,12 @@ box-sizing: border-box;
 .cart-total a{
     display: block;
     text-align: center;
-    height: 40px;
-    line-height: 40px;
+  
     background-color: #cfa286;
     color: white;
     text-decoration: none;
+    
+    
 }
 .cart-total a:hover{
     background-color: hsla(147, 64%, 49%, 0.856);
@@ -1205,86 +1239,6 @@ box-sizing: border-box;
 .h3{
     text-align: center;
 }
-/* .form-wrapper{
-    margin-left: 50px;
-    font-size: 18px;
-    color: #252525;
-  
-}
-.form-wrapper .form-control{
-    margin-left: 40px;
-    font-size: 16px;
-    color: #252525;
-    margin-bottom: 8px;
-    background-color: #dfcec2;
-    border: #dfcec2;
-
-}
-.p{
-    margin-left: 50px;
-    font-size: 18px;
-    color: #252525;  
-}
-.p #firstName{
-    margin-left: 40px;
-    font-size: 18px;
-    color: #252525;
-    margin-bottom: 8px;
-    background-color: #dfcec2;
-    border: #dfcec2;
-}
-.p #phone{
-    font-size: 18px;
-    background-color: #dfcec2;
-    border: #dfcec2;
-}
-.p #message{
-    font-size: 18px;
-    background-color: #dfcec2;
-    border: #dfcec2;
-}
-.p2{
-    text-align: left;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-top: 20px;
-}
-.p #receipt{
-    margin-bottom: 20px;
-}
-.p .p2{
-    margin: 50px;
-}
-button{
-    margin-left: 500px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    text-decoration: none;
-    font-weight: 300;
-    padding: 0.5rem 1.8rem;
-    font-size: 24px;
-    background-color: #dfcec2;
-    border-radius: 1.2rem;
-    border: #dfcec2;
-    
-}
-button:hover{
-    background-color: #32c75f;
-
-}
-
-
-
- */
-
-
-
-
-
-
-
-
 
 
 
